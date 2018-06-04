@@ -52,4 +52,4 @@ var str5=str4.split('.');
 var year=str5[0];
 var month=str5[1];
 var day=str5[2];
-console.log(str4);
+console.log(str4 +" : " + year + "년 " + month + "월 " + day + "일 ");
