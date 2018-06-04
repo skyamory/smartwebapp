@@ -1,0 +1,10 @@
+console.log("Math.PI :"+Math.PI);
+console.log("Math.E :"+Math.E);
+console.log("Math.pow :"+Math.pow(2,3));
+console.log("Math.sqrt :"+Math.sqrt(4));
+console.log("Math.ceil :"+Math.ceil(1.3));
+console.log("Math.min :"+Math.min(1,4));
+console.log("Math.max :"+Math.max(1,4));
+console.log("Math.random :"+Math.random());
+console.log("Math.round :"+Math.round(1.3));
+console.log("Math.floor :"+Math.floor(1.9));
