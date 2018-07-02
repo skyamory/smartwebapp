@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/jqueryEx1.css">
+</head>
+<body>
+   <!-- <div id="div" class="font-red">DiV</div>
+   <span class="font-red">스판</span>
+   <p class="font-red">P</p> -->
+    
+   <!-- animated 필터예제 -->
+   <div>
+		<button id="run">RuN</button>
+		<div class="animated"></div>
+		<div id="mover" class="animated"></div>
+		<div class="animated"></div>
+	</div>   
+	 
+   <!-- focus 필터예제 -->
+   <div>
+  		<div id="contents">
+			<input type="text" tabindex="1">
+			<input type="text" tabindex="3">
+			<select name="" id="" tabindex="2">
+				<option value="">선택 메뉴</option>
+			</select>
+			<div tabindex="4">diVvV</div>
+		  </div>
+	</div>
+
+	<!-- header 필터예제 -->
+	<div id="header">
+		<h1>hello</h1>
+		<p>hello</p>
+		<h2>hi</h2>
+		<span>hi</span>
+	</div>
+
+	<!-- lang() 필터예제 -->
+	<div id="lang">
+		<div lang="en-us">USA</div>
+		<div lang="en-es">EsPanA</div>
+	</div>
+
+	<!-- not() 필터예제 -->
+	<div id="not">
+		<div>
+			<input type="checkbox" name="a" id="">
+			<span>A</span>
+		</div>
+		<div>
+			<input type="checkbox" name="b" id="">
+			<span>B</span>
+		</div>
+		<div>
+			<input type="checkbox" name="c" id="" checked>
+			<span>C</span>
+		</div>
+	</div>
+
+	<!-- root 필터예제 -->
+	<div id="root">
+		<div id="log">the RooT doc</div>
+	</div>
+
+   <script src="//code.jquery.com/jquery-3.3.1.js"></script>
+   <script src="../js/jqueryEx1.js"></script>
+</body>
+</html>
